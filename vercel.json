@@ -14,9 +14,6 @@
       { "src": "/sitemap.xml", "dest": "/build/sitemap.xml" },
       { "src": "/sw.js", "dest": "/build/sw.js" },
       { "src": "/(.*)", "dest": "/build/index.html" }
-    ],
-    "env": {
-      "REACT_APP_API_BASE_URL": "@your-api-base-url"
-    }
+    ]
   }
   
